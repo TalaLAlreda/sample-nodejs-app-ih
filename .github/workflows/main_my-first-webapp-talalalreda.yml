@@ -52,4 +52,5 @@ jobs:
           app-name: 'my-first-webapp-talalalreda'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E681EF4D613642FB814FE98DCC9125F4 }}
+
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
